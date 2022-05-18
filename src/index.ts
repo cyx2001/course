@@ -22,6 +22,6 @@ app.use(bodyParser());
 app.use(studentRouter.routes());
 app.use(teacherRouter.routes());
 // app.use(wsServer);
-app.listen(3000, () => {
+app.listen(8080, () => {
   console.log('port 3000 start ....')
 });
